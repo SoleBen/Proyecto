@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/****Carrusel***/
+.skill{
+  padding:0 0 25px 0;
+  position: sticky;
+}
+/* posicionando el carrucel mas abajo del ultimo parrafo*/
+.skill-bx{
+  background: #8d1068;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.skill-slider{
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+/*posicion del texto debajo de la imagen*/
+.skill-slider .item img {
+  width: 70%;
+  margin: 0 auto 25px auto;
+}
+
+.background-image-left{
+  top: 29%;
+  position: absolute;
+  bottom: 0;
+  width: 400%;
+  z-index: -4;
+}
+
+
+/*****************************/
